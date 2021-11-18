@@ -39,6 +39,14 @@ a {
   justify-content: space-between;
   background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
 }
+@media (max-width: 800px) {
+  .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+}
 .left-col {
   margin-right: 6px;
   max-width: 360px;
@@ -54,7 +62,8 @@ a {
   margin-bottom: 15px;
 }
 .right-col {
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   font-size: 0.85rem;
   background: var(--text_white);
   border-radius: 10px;
@@ -188,6 +197,15 @@ height: 50px;
   text-indent: 10px;
   text-align: justify;
 }
+@media (max-width: 800px) {
+  
+  .right-col__caption {
+    width: 130px;
+  }
+  .right-col__line img {
+    width: 150px;
+  }
+}
 .project__item,
 .course__item {
   padding-bottom: 10px;
@@ -221,4 +239,18 @@ height: 50px;
   display: block;
   width: 80px;
   height: 80px;
+}
+@media (max-width: 800px) {
+  .skills__container {
+    padding-top: 20px;
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+  }
+}
+  .skills__item img {
+    margin-right: 10px;
+  width: 60px;
+  height: 60px;
+  }
 }
