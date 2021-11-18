@@ -84,6 +84,7 @@ h1, p {
 .header__title .position {
   font-weight: bold;
   line-height: 18px;
+  font-size: 0.94rem;
 }
 .contacts__section {
   padding-bottom: 10px;
@@ -137,4 +138,9 @@ h1, p {
 }
 .dot {
   background-color: var(--dot_dark)
+}
+/* --------------------------------------------------- */
+.social__link a {
+  text-decoration: none;
+  color: var(--text_white);
 }
