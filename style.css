@@ -71,7 +71,9 @@ body {
   font-size: 0.94rem;
   line-height: 18px;
 }
-
+.contacts__section {
+  padding-bottom: 10px;
+}
 .contact__item {
   margin-bottom: 5px;
   padding: 7px 14px;
@@ -88,6 +90,28 @@ body {
   font-size: 0.94rem;
   line-height: 18px;
 }
+/* --------------------------------------------------- */
+.profile__section {
+  background: rgba(196, 196, 196, 0.35);
 
+}
+.profile__section {
+  padding: 7px 14px;
+  border-radius: 10px;
+}
+.profile__section p{
+  margin: 0;
+  text-indent: 15px;
+  font-size: 0.94rem;
+  text-align: justify;
+}
+.profile__section h1{
+  margin: 0;
+  padding-bottom: 5px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.94rem;
+  line-height: 18px;
+}
 
 
