@@ -12,9 +12,22 @@ body {
 }
 .wrapper {
   margin: 0 auto;
+  padding: 10px 14px;
   max-width: 850px;
   width: 100%;
   min-height: 1050px;
   display: flex;
-  border: 1px solid red;
+  justify-content: space-between;
+  background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+}
+.left-col {
+  margin-right: 6px;
+  width: 400px;
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 10px;
+}
+.right-col {
+  width: 450px;
+  background: #fff;
+  border-radius: 10px;
 }
