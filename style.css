@@ -7,6 +7,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   color: rgba(0, 0, 0, 0.8);
 }
@@ -19,11 +20,13 @@ body {
   display: flex;
   justify-content: space-between;
   background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+  color: rgba(255, 255, 255, 1);
 }
 .left-col {
   margin-right: 6px;
   width: 400px;
   background: rgba(196, 196, 196, 0.3);
+  
   border-radius: 10px;
 }
 .right-col {
@@ -31,3 +34,42 @@ body {
   background: #fff;
   border-radius: 10px;
 }
+.left-col__wrapper {
+  padding: 0 18px;
+}
+.header {
+  padding-top: 10px;
+  display: flex;
+}
+.header__avatar img{
+  width: 105px;
+  height: 110px;
+  border-radius: 50%;
+}
+.header__title {
+  margin-left: 22px;
+  padding-top: 5px;
+}
+.header__title h1{
+  margin: 0;
+  padding: 0;
+}
+.header__title .lname {
+  font-size: 1.56rem;
+  line-height: 30px;
+  color: rgba(206, 202, 202, 1);
+}
+.header__title .fname  {
+  font-weight: 500;
+  font-size: 2.1rem;
+  line-height: 43px;
+  color: #fff;
+}
+.header__title .position {
+  font-weight: bold;
+  font-size: 0.94rem;
+  line-height: 18px;
+}
+
+
+
